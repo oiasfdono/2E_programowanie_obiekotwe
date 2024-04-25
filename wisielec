@@ -1,0 +1,41 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <vector>
+#include <time.h>
+
+using namespace std;
+
+string slowolos();
+
+int main()
+{
+	cout << slowolos;
+
+}
+
+string slowolos()
+{
+	ifstream haslowis("dzieci.txt");
+	vector<string> slowa;
+
+	if (haslowis)
+	{
+		string slowo;
+		while (haslowis >> slowo)
+		{
+			slowa.push_back(slowo);
+		}
+	}
+	else
+	{
+		cout << "Blad pliku";
+	}
+
+	srand(time(0));
+	int indeks = rand() % slowa.size();
+	return slowa[indeks];
+}
+
+
+
