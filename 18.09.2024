@@ -1,0 +1,56 @@
+using System;
+
+
+/* //* Zadanie 1
+class program
+{
+    public static void Main(string[] args)
+    {
+        float a = float.Pi;
+        Console.WriteLine(a);
+    }
+}
+*/
+/* //* Zadanie 2
+class program
+{
+    public static void Main(string[] args)
+    {
+        string a;
+        a = "David Szcześniak-Moskal";
+        Console.WriteLine(a);
+    }
+}
+*/ //* Zadanie 3
+/* Zadanie 3
+class program
+{
+    public static void Main(string[] args)
+    {
+        int x = 10;
+        float y = (float)x;
+        Console.WriteLine(y);
+    }
+}
+*/
+/* //* Zadanie 4
+class program
+{
+    public static void Main(string[] args)
+    {
+        double a = 10.78493;
+        int b = Convert.ToInt32(a);
+        Console.WriteLine(b);
+    }
+}
+*/
+//* Zadanie 5
+class program
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Napisz: ");
+        string napis = Console.ReadLine();
+        Console.WriteLine("Twój napis:" + napis);
+    }
+}
