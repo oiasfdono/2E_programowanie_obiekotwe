@@ -1,0 +1,97 @@
+using System;
+
+/*
+class program
+{
+public static void Main(string[] args)
+{
+    Console.WriteLine("Witaj świecie!");
+}
+}
+*/
+/*
+class program
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Cześć," + Console.ReadLine());
+    }
+}
+*/
+/*
+class program
+{
+    public static void Main(string[] args)
+    {
+        string a = Console.ReadLine();
+        string b = Console.ReadLine();
+        int c = Convert.ToInt32(a);
+        int d = Convert.ToInt32(b);
+        Console.WriteLine(c + d);
+    }
+}
+*/
+/*
+class program
+{
+    public static void Main(string[] args)
+    {
+        string a = Console.ReadLine();
+        float r = Convert.ToSingle(a);
+        Console.WriteLine(float.Pi * (r * r));
+    }
+}
+*/
+/*
+class program
+{
+    public static void Main(string[] args)
+    {
+        double C = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine((C * 9/5)+32);
+    }
+}
+*/
+/*
+class program
+{
+    public static void Main(string[] args)
+    {
+        double a = Convert.ToDouble(Console.ReadLine());
+        string b = Convert.ToString(a);
+        Console.WriteLine(b);
+    }
+}
+*/
+/*
+class program
+{
+    public static void Main(string[] args)
+    {
+        double a = Convert.ToDouble(Console.ReadLine());
+        double b = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine((a + b) / 2);
+    }
+}
+*/
+/*
+class program
+{
+    public static void Main(string[] args)
+    {
+        double a = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine(a * a);
+    }
+}
+*/
+
+class program
+{
+    public static void Main(string[] args)
+    {
+        double a = Convert.ToDouble(Console.ReadLine());
+        int b = Convert.ToInt32(a);
+        Console.WriteLine(b);
+
+    }   
+}
